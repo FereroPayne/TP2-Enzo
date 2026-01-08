@@ -69,9 +69,13 @@ int main() {
 
     std::cout << "Reservation Chambre: " << r1.getChambre().getNumchambre() << " Date Debut: " << r1.getDateDebut() << " Date Fin: " << r1.getDateFin() << std::endl;
     std::cout << "Reservation Chambre: " << r2.getChambre().getNumchambre() << " Date Debut: " << r2.getDateDebut() << " Date Fin: " << r2.getDateFin() << std::endl;
-
+  std::string getTypeChambre() const;
+    std::string getNom() const;
+    std::string getVille() const;
+    std::string getChambre() const;
 
 
 }
+
 
 
