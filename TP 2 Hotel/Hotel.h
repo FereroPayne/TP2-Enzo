@@ -4,7 +4,7 @@
 
 class Client {
     public:
-  Client(
+  Hotel(
     std::string IDhotel,
       std::string nom,
       std::string ville,
@@ -25,5 +25,6 @@ class Client {
   std::string chambre;
 };
 #endif
+
 
 
